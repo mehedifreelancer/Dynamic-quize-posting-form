@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Post</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slick-theme.css" type="text/css">
+
+    <link rel="stylesheet" href="css/media.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slick.css" type="text/css">
+    <link rel="stylesheet" href="css/admin.css" type="text/css">
+    <link rel="stylesheet" href="css/adminMedia.css" type="text/css">
+
+
+
+</head>
+<body>
+<!-- Here is draft top logo section -->
+<div id="top" >
+    <div class=" top-row">
+        <div class="col-xs-4">
+            <a role="button"> <img src="image/createPost%20logo.PNG"></a>
+        </div>
+        <div class="col-xs-8">
+
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Here is draft post section -->
+<div class="draft-post">
+    <p class="text-center">Draft Post</p>
+</div>
+
+
+<div class="form">
+
+    <!--Here is Buttons group -->
+    <div class="buttons">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4 ">
+                    <a class="btn user-pr-btn">Save</a>
+                </div>
+                <div class="col-xs-8 text-right">
+                    <a class="btn user-pr-btn preview">Preview</a>
+                    <a class="btn user-sc-btn">Publish Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-2 pattern">
+                <!--Empty for pattern list or Tiles -->
+            </div>
+            <div class="col-xs-10">
+                <div class="form-body">
+                        <!--  Every form will come form dynamicForm.js-->
+                        <div class="personality-quize">
+                            <div class="heading">
+                                <h3>Personality Quize</h3>
+                            </div>
+
+                            <div class="dynamic-quize-body">
+                               <!--
+                                <div id="identifier">
+                                    <div class="body-head">
+                                        <h4>Quize 1 <i class="fa fa-edit pull-right"></i></h4>
+                                    </div>
+                                    <div class="body-quize">
+                                        <div class="question">
+                                            <h5>Question</h5>
+                                            <br>
+                                            <div class="">
+                                                <textarea rows="4" placeholder="Question" class="form-control text-question"></textarea>
+
+
+                                                <div class="image-place text-center image-question">
+                                                    <h1 >Image Place</h1>
+                                                    <h1><i class="fa fa-image"></i></h1>
+                                                    <i role="button" class="fa fa-times-circle-o close-image-question"></i>
+                                                </div>
+
+
+                                                <div role="button" class="question-image">
+                                                    <input type="file">
+                                                    <i role="button" class="fa fa-image"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="answer">
+                                            <h5>Answer</h5>
+                                            <div class="ans-divs">
+                                                <div class="row">
+                                                    <div class="col-xs-6 ans1">
+                                                        <textarea class="form-control" placeholder="Answer" rows="4"></textarea>
+                                                        <i role="button" class="fa fa-close ans-close"></i>
+                                                        <h5 class="ans-btn"><input type="radio" name="ans"  > Correct</h5>
+                                                    </div>
+                                                    <div class="col-xs-6 ans2">
+                                                        <textarea class="form-control" placeholder="Answer" rows="4"></textarea>
+                                                        <i role="button" class="fa fa-close ans-close"></i>
+                                                        <h5 class="ans-btn"><input type="radio" name="ans"  > Correct</h5>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="row ">
+                                                    <div class="col-xs-6 image1">
+                                                        <i role="button" class="fa fa-close"></i>
+                                                        <div class="ans-image">
+                                                        </div>
+                                                        <div class="ans-image-btn ">
+                                                            <input type="file">
+                                                            <i class="fa fa-image"></i>
+                                                        </div>
+                                                        <h5 class="ans-btn"><input type="radio" name="ans"  > Correct</h5>
+                                                    </div>
+                                                    <div class="col-xs-6 image2">
+                                                        <i role="button" class="fa fa-close"></i>
+                                                        <div class="ans-image">
+                                                        </div>
+                                                        <div class="ans-image-btn ">
+                                                            <input type="file">
+                                                            <i class="fa fa-image"></i>
+                                                        </div>
+                                                        <h5 class="ans-btn"><input type="radio" name="ans"  > Correct</h5>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <a class="btn btn-primary btn-block addAnsText">Add answer text</a>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <a class="btn btn-primary btn-block addAnsImage">Add Answer image</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+
+                            <a class="btn btn-default btn-block text-center addQuiz"> + Add Quize </a>
+
+                        </div>
+
+
+                        <style>
+                            .personality-quize{
+                                border: 1px solid #dddddd;
+
+                            }
+                            .personality-quize .heading{
+                                padding: 5px;
+                            }
+                            .body-head{
+                                background: black;
+                                color: white;
+                                padding:5px 10px
+                            }
+                            .question{
+                                position: relative;
+                                margin: 10px;
+                                border: 1px solid #dddddd;
+                                padding: 5px;
+                            }
+                            .question h5{
+                                font-weight: bold;
+                            }
+                            .answer h5{
+                                font-weight: bold;
+                            }
+                            .answer{
+                                margin: 10px;
+                                border: 1px solid #dddddd;
+                                padding: 5px;
+                            }
+                            .questionInput{
+                                position:relative;
+
+
+                            }
+                            .questionInput textarea{
+                                font-size: 30px;
+                                text-align: center;
+
+                            }
+                            .ans1, .ans2{
+                                position: relative;
+
+                            }
+                            .ans1 textarea, .ans2 textarea{
+                                background: #6645dd;
+                                font-size: 35px;
+                                text-align: center;
+                                border: 1px solid #dddddd;
+
+                            }
+                            .ans1 i, .ans2 i{
+                                color:white;
+                                font-size: 18px;
+                                position: absolute;;
+                                top: 0;
+                                border: 1px solid white;
+                                border-radius: 50px;
+                                padding: 5px 7px;
+
+                            }
+
+                            .color-option .background .b-buttons{
+                                height:30px;
+                                width: 30px;
+                                border:1px solid #dddddd;
+                                float: left;
+                                margin: 0px 3px;
+                            }
+                            .color-option .text .b-buttons{
+                                height:30px;
+                                width: 30px;
+                                border:1px solid #dddddd;
+                                float: left;
+                                margin: 0px 3px;
+                            }
+                            .ans-btn{
+                                display: none;
+                                position: absolute;
+                                bottom: 0;
+                                padding: 5px;
+                                color: #00ff00;
+                                right: 0;
+                                margin-right: 15px;
+
+                            }
+                            .ans1:hover .ans-btn{
+                                display: block;
+                            }
+                            .ans2:hover .ans-btn{
+                                display: block;
+                            }
+                            .question-image i{
+                                position: absolute;
+                                font-size: 25px;
+                                right:0;
+                                top: 0;
+                                margin: 5px;
+                            }
+                            .question-image{
+                                position: relative;
+                                position: absolute;
+                                height: 35px;
+                                width :35px;
+                                background: white;
+                                right: 0;
+                                top: 0;
+                                margin: 5px;
+                            }
+                            .question-image input{
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                opacity: 0;
+                                z-index: 1;
+                            }
+                            .image-place {
+                                border: 1px solid #dddddd;
+                                position: relative;
+                                color: gray;
+
+                            }
+                            .image-question{
+                                display: none;
+                            }
+                            .image-place .fa-times-circle-o{
+                                font-size: 30px;
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+
+                            }
+                            .image-place .fa-times-circle-o:hover {
+                                color: red;
+                            }
+
+                            .b-black{
+                                background: black;
+                            }
+                            .b-white{
+                                background: white;
+                            }
+                            .b-red{
+                                background: red;
+                            }
+                            .b-orange{
+                                background: orangered;
+                            }
+                            .b-green{
+                                background: green;
+                            }
+                            .b-blue{
+                                background: blue;
+                            }
+                            .b-gray{
+                                background: grey;
+                            }
+                            .b-deep-green{
+                                background: #336666;
+                            }
+                            .ans-image-btn{
+                                position: relative;
+                                position: absolute;
+                                height: 50px;
+                                width:50px;
+                                margin: 5px;
+                                bottom: 1px;
+                                color: white;
+
+                            }
+                            .ans-image{
+                                position: relative;
+                                background: #6645dd;
+                                height: 200px;
+
+
+                            }
+                            .ans-image-btn i{
+                                position: absolute;
+                                font-size: 50px;
+                            }
+                            .ans-image-btn input{
+                                position: absolute;
+                                height: 100%;
+                                width:100%;
+                                z-index: 1;
+                                opacity: 0;
+
+
+                            }
+                            .image1{
+                                position: relative;
+                            }
+                            .image1:hover .ans-btn{
+                                display: block;
+                            }
+                            .image2:hover .ans-btn{
+                                display: block;
+                            }
+                            .image2 .fa-close, .image1 .fa-close{
+                                position: absolute;
+                                color:red;
+                                font-size: 18px;
+                                border: 1px solid white;
+                                border-radius: 50px;
+                                padding: 5px 7px;
+                                z-index: 1;
+                                color: white;
+                            }
+
+
+                        </style>
+
+                </div>
+
+
+                <br>
+                <br>
+
+
+                <div class="settings">
+                    <div class="settings-heading  " >
+
+                        <i role="button" class="fa fa-cog "> </i>
+                        <i role="button" class="fa fa-times"></i>
+
+
+                    </div>
+                    <div class="settings-body pull-right">
+                        <div class="settings-body-element">
+
+                            <div class="list-style">
+                                <div role="button" class="list-option">
+                                    <p>Plane List</p>
+                                    <a><i class="fa fa-align-left"></i></a>
+                                </div>
+                                <div role="button" class="list-option">
+                                    <p>Numbered</p>
+                                    <a><i class="fa fa-list-ol"></i></a>
+                                </div>
+                                <div role="button" class="list-option">
+                                    <p>Count Down</p>
+                                    <a><i class="fa fa-sort-numeric-desc"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="community-post">
+                                <div class="com-heading" >
+                                    <h5>Thumbnail</h5>
+                                    <div class="take-photo">
+                                        <i class="fa fa-image"> </i>
+                                        <p>Click to upload </p>
+                                        <input class="com-file" type="file">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="com-text">
+                                <img src="image/com.PNG">
+                                <p>You can submit 1 post a day to our Community editors to be featured on BuzzFeed. Learn More
+
+                                    You have 1 suggestion left today. Use it wisely!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+
+
+
+
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/slick.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/my.js" type="text/javascript"></script>
+<script src="js/admin.js" type="text/javascript"></script>
+<script src="js/dynamicPersonalityQuize.js" type="text/javascript"></script>
+
+
+<script>
+
+</script>
+</html>
